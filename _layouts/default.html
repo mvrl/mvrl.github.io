@@ -1,5 +1,6 @@
 <html>
-  <head>
+<head>
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-34268917-5"></script>
 <script>
@@ -9,12 +10,15 @@
 
   gtag('config', 'UA-34268917-5');
 
-  window.location.replace('http://mvrl.cs.uky.edu/datasets/amos/');
+  /*window.location.replace('{{ page.target }}');*/
 
 </script>
-  </head>
-  <body>
-    This page should redirect automatically, if not please go to <a href="http://mvrl.cs.uky.edu/datasets/amos/">http://mvrl.cs.uky.edu/datasets/amos/</a>.
-  </body>
+
+</head>
+<body>
+{{ content }}
+</body>
 </html>
+
+
 
