@@ -1,3 +1,6 @@
+build:
+	bundle exec jekyll build 
+
 deploy:
 	@echo "# deploying mvrl.github.io"
 	git add -u && \
