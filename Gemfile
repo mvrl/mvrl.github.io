@@ -5,3 +5,5 @@ gem 'jekyll'
 gem 'rake'
 gem 'github-pages'
 
+gem 'webrick'
+
