@@ -27,6 +27,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: ""
 url: "http://mvrl.github.io"
 google_analytics: G-PD9MV17SC8
+labpage: "http://mvrl.cse.wustl.edu"
 
 # Build settings
 theme: minima
